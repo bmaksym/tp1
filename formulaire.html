@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulaires</title>
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <a class="active" href="acceuil.html">Acceuil</a>
+            <a href="formulaire.html">Formulaires</a>
+            <a href="table.html">Tableau</a>
+            
+            <input type="text" class="icon" value placeholder="Search">
+          </div>
+    </header>
+    <div class="form">
+        <form action="https://philippefleury.com/backend.php" method="post">
+            <select name="selecteur" id="selecteur">
+                <option value="volvo">Crème Glacée - Chocolat</option>
+                <option value="saab">Crème Glacée - Vanille</option>
+                <option value="opel">Crème Glacée - Cerise</option>
+              </select><br><br>
+            <input type="text" id="text" name="name" placeholder="Entrez du texte"><br><br>
+            <input class="email" type="email" id="email" size="30" required placeholder="Entrez votre email">
+            <br>
+            <button class="btn-submit" type="submit" form="form1" value="Submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
